@@ -10,29 +10,36 @@ This is a simpe web application that takes user's birthday and calculates the da
 
 ### Dependencies
 
-* Any latest OS such as Windows 8 to 11, Any linux/Unix or Mac OS.
-* Git.
-* IDE environment like visual code.
+- Any latest OS such as Windows 8 to 11, Any linux/Unix or Mac OS.
+- Git.
+- IDE environment like visual code.
+
+### Technologies
+
+- HTML
+- CSS
+- JAVASCRIPT
 
 ### Installing
 
-* Clone project from this repository - https://github.com/naniyule/Birthday_calculator
-* Make any adjustments as seen fit on the html or css files.
+- Clone project from this repository - https://github.com/naniyule/Birthday_calculator
+- Make any adjustments as seen fit on the html or css files.
 
 ### Executing program
 
-* Run it locally from the index.html file.
-* You can also access it from the gitlab page -- https://naniyule.github.io/Birthday_calculator/
+- Run it locally from the index.html file.
+- You can also access it from the gitlab page -- https://naniyule.github.io/Birthday_calculator/
 
 ## Authors
+
 Sydney Waithaka Wanjohi
 
 Email - naniyule@gmail.com
 
 ## Version History
 
-* 0.1
-    * Initial Release
+- 0.1
+  - Initial Release
 
 ## Copyright and license Information
 
