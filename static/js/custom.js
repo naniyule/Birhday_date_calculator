@@ -1,0 +1,28 @@
+var validMonths = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+var monthCodeArray = [
+  "0",
+  "3",
+  "3",
+  "6",
+  "1",
+  "4",
+  "6",
+  "2",
+  "5",
+  "0",
+  "3",
+  "5",
+];
