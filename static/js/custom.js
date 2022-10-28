@@ -65,3 +65,48 @@ function checkLeapYear(year) {
     return (valid = true);
   }
 }
+
+function checkValidDays(month, day, year) {
+  var validDays = [
+    "31",
+    "28",
+    "31",
+    "30",
+    "30",
+    "30",
+    "31",
+    "31",
+    "30",
+    "31",
+    "30",
+    "31",
+  ];
+
+  // check if the user has selected valid day for that month
+  // e.g. April has 30 days not 31
+  // get the valid date of the month
+  valid = true;
+  // convert variables to integers
+  intMonth = parseInt(month);
+  intDay = parseInt(day);
+  intYear = parseInt(year);
+
+  // decrement to adjust with array index. Important!
+  intMonth--;
+  validDate = validDays[intMonth];
+
+  // if the month selected is february, and
+  // date is 29, check if it was a leap year
+  if (intMonth === 1 && intDay === 29) {
+    if (checkLeapYear(intYear) === true) {
+      //console.log("Must have been a leap year");
+      return (valid = true);
+    } else {
+      return (valid = false);
+    }
+  } else {
+    if (intDay <= 0 || intDay > validDate) {
+      return (valid = false);
+    }
+  }
+}
