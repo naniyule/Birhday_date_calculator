@@ -26,3 +26,18 @@ var monthCodeArray = [
   "3",
   "5",
 ];
+
+function compareDate(birthDate) {
+  // determine if the date is not in the future
+  var time1 = new Date(birthDate);
+  var today = new Date();
+  var diff = today - time1;
+
+  if (diff > 0) {
+    return (valid = false);
+  } else if (diff < 0) {
+    return (valid = true);
+  } else {
+    return (valid = false);
+  }
+}
