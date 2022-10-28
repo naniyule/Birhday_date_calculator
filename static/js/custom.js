@@ -41,3 +41,27 @@ function compareDate(birthDate) {
     return (valid = false);
   }
 }
+
+function checkLeapYear(year) {
+  valid = false;
+  // is number evenly divisible by 4
+  divisibleBy4 = year % 4;
+  // is number evenly divisible by 100
+  divisibleBy100 = year % 100;
+  // is number evenly divisible by 400
+  divisibleBy400 = year % 400;
+
+  if (divisibleBy4 != 0) {
+    // not a leap year
+    return (valid = false);
+  } else if (divisibleBy100 != 0) {
+    //Is a Leap year
+    return (valid = true);
+  } else if (divisibleBy400 != 0) {
+    //Is not Leap year.
+    return (valid = false);
+  } else {
+    //Not a leap year
+    return (valid = true);
+  }
+}
